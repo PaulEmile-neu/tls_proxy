@@ -1,0 +1,23 @@
+{
+  "name": "mitm_proxy_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon https-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "global-agent": "^3.0.0",
+    "http": "0.0.1-security",
+    "http-mitm-proxy": "^0.9.0",
+    "http-proxy": "^1.18.1",
+    "https": "^1.0.0",
+    "mockttp": "^2.7.0",
+    "nodemon": "^2.0.15",
+    "tlsjack": "^0.2.0",
+    "url": "^0.10.3"
+  }
+}
